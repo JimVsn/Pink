@@ -1,0 +1,8 @@
+.information__content {
+  /* border: 1px red solid; */
+  background: #f2f2f2;
+  width: 100%;
+  min-height: 715px;
+  height: 100%;
+  transform: skew(0, -4.7deg);
+}

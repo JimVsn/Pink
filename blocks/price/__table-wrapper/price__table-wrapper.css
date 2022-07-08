@@ -1,0 +1,9 @@
+.price__table-wrapper {
+    max-width: 233px;
+    width: 100%;
+    margin-right: 6px;
+}
+
+.price__table-wrapper:last-child {
+    margin-right: 0;
+}

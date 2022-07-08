@@ -1,0 +1,18 @@
+.slider__text {
+    /* Заголовок слайда */
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    color: #283645;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 400;
+    /* Выравнивание текста по горизонтали и по вертикали*/
+    /* transform: translate(-50%, -50%); */
+    /* Тень*/
+    /* text-shadow: 1px 1px 1px #000, 0 0 1em #000; */
+    border: 1px red solid;
+    max-width: 688px;
+    width: 100%;
+    margin-top: 40px;
+    text-align: center;
+    margin-bottom: 0;
+}

@@ -1,0 +1,10 @@
+.price__heat-text {
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 30px;
+    font-weight: 400;
+    color: #fff;
+    transform: rotate(-45deg);
+    margin-top: 1px;
+    margin-left: 10px;
+}

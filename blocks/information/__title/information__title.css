@@ -1,0 +1,12 @@
+.information__title {
+  font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  color: rgba(40, 54, 69, 1);
+  font-style: normal;
+  font-size: 50px;
+  line-height: 68px;
+  max-width: 700px;
+  width: 100%;
+  margin-top: 0;
+  margin-bottom: 100px;
+}

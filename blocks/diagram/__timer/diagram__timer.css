@@ -1,0 +1,13 @@
+.diagram__timer {
+    border: 1px red solid;
+    max-width: 298px;
+    width: 100%;
+    height: 345px;
+    margin-top: 17px;
+    position: relative;
+    z-index: 8;
+    background-image: url(../../../images/timer.svg);
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}

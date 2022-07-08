@@ -1,0 +1,5 @@
+.header__logo-img_hover:hover {
+    cursor: pointer;
+    content: url(../../../../images/header-logo-pink.svg);
+    transition: 0.3s;
+  }

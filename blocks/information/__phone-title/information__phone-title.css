@@ -1,0 +1,19 @@
+.information__phone-title {
+    border: 1px red solid;
+    max-width: 300px;
+    width: 100%;
+    min-height: 146px;
+    height: 100%;
+    background-color: #f2f2f2;
+    margin-top: -81px;
+    z-index: 3;
+    position: relative;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    line-height: 30px;
+    font-size: 30px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0;
+}

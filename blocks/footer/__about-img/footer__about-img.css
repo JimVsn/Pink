@@ -1,0 +1,11 @@
+.footer__about-img {
+    width: 27px;
+    height: 34px;
+    transition: 0.3s;
+}
+
+.footer__about-img:hover {
+    cursor: pointer;
+    content: url(../../../images/htmlacademyColor.svg);
+    transition: 0.3s;
+}

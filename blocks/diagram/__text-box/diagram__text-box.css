@@ -1,0 +1,8 @@
+.diagram__text-box {
+    border: 1px red solid;
+    max-width: 571px;
+    width: 100%;
+    min-height: 345px;
+    height: 100%;
+    margin-top: 20px;
+}

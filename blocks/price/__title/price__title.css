@@ -1,0 +1,12 @@
+.price__title {
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 700;
+    text-transform:uppercase;
+    color: #fff;
+    margin-top: 15px;
+    margin-bottom: 0;
+    position: relative;
+    z-index: 8;
+}

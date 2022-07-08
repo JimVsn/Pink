@@ -1,0 +1,15 @@
+.header__logo-img {
+  max-width: 147px;
+  width: 100%;
+  height: 40px;
+  margin-right: 43px;
+  color: #D22856;
+  transition: 0.3s;
+  padding-bottom: 24px;
+}
+
+.header__logo-img:hover {
+  cursor: pointer;
+}
+
+

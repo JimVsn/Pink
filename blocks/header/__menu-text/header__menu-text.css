@@ -1,0 +1,29 @@
+.header__menu-text {
+  text-decoration: none;
+  color: #ffffff;
+  font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 18px;
+  margin-right: 78px;
+  border-bottom: 10px solid transparent;
+  /* transition: 0.3s; */
+}
+
+.header__menu-text:visited {
+  opacity: 0.3;
+  /* transition: 0.3s; */
+}
+
+.header__menu-text:first-child {
+  margin-left: 130px;
+}
+
+.header__menu-text:last-child {
+  margin-right: 120px;
+}
+
+
+
+

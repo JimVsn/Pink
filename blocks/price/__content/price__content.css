@@ -1,0 +1,7 @@
+.price__content {
+    max-width: 948px;
+    width: 100%;
+    margin: 105px auto 0 auto;
+    transform: skew(0, 4.7deg);
+    display: flex;
+}

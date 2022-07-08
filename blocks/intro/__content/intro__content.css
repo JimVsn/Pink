@@ -1,0 +1,8 @@
+.intro__content {
+  border: 1px red solid;
+  max-width: 1050px;
+  height: 645px;
+  width: 100%;
+  display: flex;
+  position: relative;
+}

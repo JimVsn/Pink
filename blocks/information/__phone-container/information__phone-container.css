@@ -1,0 +1,8 @@
+.information__phone-container {
+    border: 1px red solid;
+    max-width: 300px;
+    width: 100%;
+    min-height: 551px;
+    height: 100%;
+    position: relative;
+}

@@ -1,0 +1,25 @@
+.slider{
+    max-width: 90%;
+    position: relative;
+    margin: auto;
+    height: 405px;
+    margin-bottom: 0;
+    border: 1px red solid;
+}
+
+@-webkit-keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}

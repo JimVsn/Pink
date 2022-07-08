@@ -1,0 +1,11 @@
+.intro__mobile-logo_img {
+  width: 47px;
+  height: 56px;
+  transition: 0.3s;
+}
+
+.intro__mobile-logo_img:hover {
+  transform: scale(110%);
+  cursor: pointer;
+  transition: 0.3s;
+}

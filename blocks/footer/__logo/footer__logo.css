@@ -1,0 +1,12 @@
+.footer__logo {
+    max-width: 147px;
+    width: 100%;
+    height: 40px;
+    transition: 0.3s;
+}
+
+.footer__logo:hover {
+  content: url(../../../images/logofooterColor.svg);
+  cursor: pointer;
+  transition: 0.3s;
+}

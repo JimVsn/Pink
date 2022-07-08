@@ -1,0 +1,17 @@
+.diagram__link {
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 400;
+    color: #D22856;
+    text-decoration: underline;
+    margin-top: 0;
+    transition: 0.3s;
+}
+
+.diagram__link:hover {
+    cursor: pointer;
+    color: #283645;
+    transition: 0.3s;
+
+}

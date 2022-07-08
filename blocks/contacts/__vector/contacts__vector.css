@@ -1,0 +1,8 @@
+.contacts__vector {
+    background-image: url(../../../images/vectorWhite.svg);
+    width: 36px;
+    height: 36px;
+    position: absolute;
+    top: 263px;
+    left: 584px;
+}

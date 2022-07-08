@@ -1,0 +1,15 @@
+.contacts {
+    min-height: 345px;
+    height: 100%;
+    max-width: 1200px;
+    width: 100%;
+    background-color: #fff;
+    position: relative;
+    z-index: 8;
+    margin-top: -50px;
+    padding-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* overflow: hidden; */
+}

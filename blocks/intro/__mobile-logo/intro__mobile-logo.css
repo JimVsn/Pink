@@ -1,0 +1,6 @@
+.intro__mobile-logo {
+  border: 1px red solid;
+  display: flex;
+  margin-top: 67px;
+  justify-content: space-around;
+}

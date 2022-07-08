@@ -1,0 +1,9 @@
+.contacts__text-box {
+    border: 1px red solid;
+    max-width: 241px;
+    width: 100%;
+    min-height: 98px;
+    height: 100%;
+    margin-top: 35px;
+    text-align: center;
+}

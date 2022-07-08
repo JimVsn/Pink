@@ -1,0 +1,4 @@
+.price__heat-container {
+    display: flex;
+    flex-direction: column;
+}

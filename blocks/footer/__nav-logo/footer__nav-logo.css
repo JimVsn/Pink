@@ -1,0 +1,21 @@
+.footer__nav-logo {
+    width: 48px;
+    height: 48px;
+    border: 3px solid rgba(40, 54, 69, 0.1);
+    border-radius: 50%;
+    margin-right: 11px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s;
+}
+
+.footer__nav-logo:last-child {
+    margin-right: 0;
+}
+
+.footer__nav-logo:hover {
+    border: 3px solid rgba(40, 54, 69, 1);
+    transition: 0.3s;
+    cursor: pointer;
+}
