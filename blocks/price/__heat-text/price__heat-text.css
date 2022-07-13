@@ -8,3 +8,10 @@
     margin-top: 1px;
     margin-left: 10px;
 }
+
+@media screen and (max-width: 691px) {
+    .price__heat-text {
+        margin-top: -1px;
+        margin-left: 5px;
+    }
+}
