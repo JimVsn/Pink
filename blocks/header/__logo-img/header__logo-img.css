@@ -12,4 +12,10 @@
   cursor: pointer;
 }
 
+@media screen and (max-width: 955px) {
+  .header__logo-img {
+    content: url(../../../images/logotype-white-tablet.svg);
+    height: 40px;
+  }
 
+}

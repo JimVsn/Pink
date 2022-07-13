@@ -11,3 +11,9 @@
     content: url(../../../images/rightarrow06.svg);
     transition: 0.3s;
 }
+
+@media screen and (max-width: 955px ) {
+    .slider__next {
+        display: none;
+    }
+}

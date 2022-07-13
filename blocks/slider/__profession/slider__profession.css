@@ -6,3 +6,9 @@
   margin-top: 7px;
   margin-bottom: 0;
 }
+
+@media screen and (max-width: 955px) {
+  .slider__profession {
+    font-size: 14px;
+  }
+}

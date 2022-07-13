@@ -6,20 +6,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pink</title>
     <link rel="stylesheet" href="pages\index.css">
+    
 </head>
 <body class="body">
   <div class="page">
     <header class="header">
-        <div class="header__logo">
-            <img class="header__logo-img header__logo-img_hover" src="./images/header-logo.svg">
-        </div>
-        <div class="header__menu">
-            <a href="#" class="header__menu-text header__menu-text_hover">Главная</a>
-            <a href="#" class="header__menu-text header__menu-text_hover">Фотографии</a>
-            <a href="#" class="header__menu-text header__menu-text_hover">Конкурс</a>
-            <a href="#" class="header__menu-text header__menu-text_hover">HTML Academy</a>
-        </div>
 
+      <div class="header__menu-tablet">
+        <div class="header__menu-tablet-header">
+          <div class="header__menu-tablet-header-wrapper">
+            <img class="header__menu-tablet-logo" src="images\logotype-white-tablet.svg" alt="логотип шапки">
+            <img class="header__menu-tablet-close-button" src="images\closemenubtn.svg" alt="кнопка закрытия меню">
+          </div>
+        </div>
+        <div class="header__menu-tablet-nav">
+          <a href="#" class="header__menu-tablet-link">главная</a>
+        </div>
+        <div class="header__menu-tablet-nav"><a href="#" class="header__menu-tablet-link">Фотографии</a></div>
+        <div class="header__menu-tablet-nav"><a href="#" class="header__menu-tablet-link">конкурс</a></div>
+        <div class="header__menu-tablet-nav"><a href="#" class="header__menu-tablet-link">html academy</a></div>
+      </div>
+      <div class="header__wrapper">
+        <div class="header__logo">
+          <img class="header__logo-img header__logo-img_hover" src="./images/header-logo.svg">
+      </div>
+      <div class="header__menu">
+          <a href="#" class="header__menu-text header__menu-text_hover">Главная</a>
+          <a href="#" class="header__menu-text header__menu-text_hover">Фотографии</a>
+          <a href="#" class="header__menu-text header__menu-text_hover">Конкурс</a>
+          <a href="#" class="header__menu-text header__menu-text_hover">HTML Academy</a>
+          <button class="header__menu-button">
+            <img src="images\openmenubtn.svg" class="header__menu-button-img" alt="кнопка меню">
+          </button>
+      </div>
+      </div>
+        
+        
     </header>
     <main class="content">
       <section class="intro">
@@ -34,8 +56,7 @@
             </div>
             <p class="intro__text">Доступно для iPhone, iPad, Android, Windows Phone, OS X, Windows 8</p>
           </div>
-          <img class="intro__phone-img" src="images\phone.svg">
-          <img class="intro__screen-img" src="images\screen.svg">
+            <img class="intro__phone-img" src="images\phone.png">
         </div>
        </section>
 
@@ -65,6 +86,25 @@
               <p class="information__phone-text">Ставьте лайки, комментируйте,&nbsp;делитесь фотографиями с друзьями и&nbsp;заводите новых</p>
             </div>
           </div>
+          <div class="information__box-tablet">
+            <img class="information__phone-tablet-img" src="images\iphoneTablet.png" alt="фото айфон">
+            <div class="information__tablet-container-text">
+              <div class="information__tablet-text-wrapper">
+                <h2 class="information__title-tablet">Поднимает настроение</h2>
+                <p class="information__text-tablet">Приложение позволит вам победить осеннюю хандру и депрессию буквально в несколько кликов!</p>
+              </div>
+              <div class="information__tablet-text-wrapper">
+                <h2 class="information__title-tablet">Меняет мир вокруг</h2>
+                <p class="information__text-tablet">Сделайте снимок и украсьте его смайликом
+                  или текстовой подписью, чтобы
+                  усилить эффект</p>
+              </div>
+              <div class="information__tablet-text-wrapper">
+                <h2 class="information__title-tablet">Заводит новых друзей</h2>
+                <p class="information__text-tablet">Ставьте лайки, комментируйте, делитесь фотографиями с друзьями и заводите новых</p>
+              </div>
+            </div>
+          </div>
         </div>
        </section>
 
@@ -84,7 +124,7 @@
        </section>
 
        <section class="slider">
-        <div class="slider__item slider-dots_item">
+        <div class="slider__item slider__run">
           <div class="slider__content">
           <img class="slider__prev" src="images\leftarrow.svg">
           <div class="slider__box">
@@ -98,8 +138,9 @@
           <img src="images\rightarrow.svg" alt="" class="slider__next">
           </div>
             </div>
+
     
-        <div class="slider__item slider-dots_item">
+        <div class="slider__item slider__run">
           <div class="slider__content">
             <img class="slider__prev" src="images\leftarrow.svg">
           <div class="slider__box">
@@ -114,7 +155,7 @@
             </div>
         </div>
     
-        <div class="slider__item slider-dots_item">
+        <div class="slider__item slider__run">
           <div class="slider__content">
             <img class="slider__prev" src="images\leftarrow.svg">
           <div class="slider__box">
@@ -128,7 +169,15 @@
               <img src="images\rightarrow.svg" alt="" class="slider__next">
               </div>
         </div>
+        <div class="slider-dots">
+          <span class="slider-dots_item" onclick="currentSlide(1)"></span> 
+          <span class="slider-dots_item" onclick="currentSlide(2)"></span> 
+          <span class="slider-dots_item" onclick="currentSlide(3)"></span> 
+      </div>
+        
     </section>
+
+    
 
     <section class="price">
       <div class="price__content">
@@ -217,14 +266,29 @@
             <h3 class="contacts__text-box-title">Пишите:</h3>
             <a class="contacts__link" href="mailto:mail@htmlacademy.ru">mail@htmlacademy.ru</a>
           </div>
-        </div>
       </div>
-      <div class="contacts__triangle"></div>
+
+      <div class="contacts__box_tablet">
+        <div class="contacts__box-tablet-wrapper">
+          <div class="contacts__text-box">
+            <h3 class="contacts__text-box-title">Звоните:</h3>
+            <a class="contacts__link" href="tel:78125556666">+7 (812) 555-66-66</a>
+          </div>
+          <div class="contacts__text-box">
+            <h3 class="contacts__text-box-title">Пишите:</h3>
+            <a class="contacts__link" href="mailto:mail@htmlacademy.ru">mail@htmlacademy.ru</a>
+          </div>
+        </div>
+        <div class="contacts__text-box">
+          <h3 class="contacts__text-box-title">Приезжайте в гости:</h3>
+          <a class="contacts__link" href="#map">ул. Большая Конюшенная, 19/8</a>
+        </div>
+    </div>
+
+    </div>
       <div class="contacts__map">
-        <div class="contacts__vector">
-          <img src="images\vectorRed.svg" id="map" alt="координата на карте" class="contacts__vector-red">
-        </div>
       </div>
+      
     </section>
     </main>
 

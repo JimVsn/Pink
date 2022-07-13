@@ -10,3 +10,9 @@
 .footer__about-text:hover {
     cursor: pointer;
 }
+
+@media screen and (max-width:955px) {
+    .footer__about-text {
+        font-size: 14px;
+    }
+}

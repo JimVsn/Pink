@@ -9,3 +9,10 @@
     text-align: center;
     margin: 0;
 }
+
+@media screen and (max-width: 955px) {
+    .contacts__title {
+        font-size: 40px;
+        line-height: 54px;
+    }
+}

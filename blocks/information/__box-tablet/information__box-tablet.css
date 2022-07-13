@@ -1,0 +1,22 @@
+.information__box-tablet {
+    border: 1px red solid;
+    width: 96%;
+    min-height: 482px;
+    height: 100%;
+    transform: skew(0deg, 4.7deg);
+    margin: -25px auto 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (min-width: 955px) {
+    .information__box-tablet {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 728px) {
+    .information__box-tablet {
+        justify-content: flex-start;
+    }
+}

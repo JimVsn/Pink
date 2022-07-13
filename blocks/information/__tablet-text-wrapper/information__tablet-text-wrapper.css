@@ -1,0 +1,10 @@
+.information__tablet-text-wrapper {
+    border: 1px red solid;
+    width: 100%;
+    min-height: 96px;
+    margin-top: 30px;
+}
+
+.information__tablet-text-wrapper:first-child {
+    margin-top: 80px;
+}

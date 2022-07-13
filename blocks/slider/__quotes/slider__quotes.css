@@ -3,3 +3,9 @@
     height: 63px;
     margin-top: 50px;
 }
+
+@media screen and (max-width: 955px) {
+    .slider__quotes {
+        display: none;
+    }
+}

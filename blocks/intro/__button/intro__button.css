@@ -25,3 +25,9 @@
   color: #D22856;
 
 }
+
+@media screen and (max-width: 955px) {
+  .intro__button {
+    font-size: 18px;
+  }
+}

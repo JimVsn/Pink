@@ -7,3 +7,9 @@
     margin: 0 0 24px 0;
     text-align: center;
 }
+
+@media screen and (max-width: 955px) {
+    .contacts__text-box-title {
+        margin-bottom: 0;
+    }
+}

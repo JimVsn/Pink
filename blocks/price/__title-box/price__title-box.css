@@ -6,3 +6,8 @@
     background-color: #283645;
 }
 
+@media screen and (max-width: 955px) {
+    .price__title-box {
+        height: 75px;
+    }
+}

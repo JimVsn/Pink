@@ -1,7 +1,38 @@
 .intro__phone-img {
-  max-width: 1050px;
+  /* max-width: 1050px; */
   width: 100%;
   max-height: 645px;
   height: 100%;
-  margin-left: -300px;
+  margin-left: -150px;
+  object-fit: cover;
+  object-position: 100% 50%;
+  position: relative;
+  z-index: 20;
 }
+
+@media screen and (max-width: 995px) {
+  .intro__phone-img {
+    object-position: 90%;
+  }
+}
+
+@media screen and (max-width: 955px) {
+  .intro__phone-img {
+    max-height: 545px;
+    object-position: 70%;
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 1038px) {
+  .intro__phone-img {
+    margin-left: -100px;
+  }
+}
+
+@media screen and (max-width: 704px) {
+ .intro__phone-img {
+  /* object-position: 65%; */
+  margin-left: -200px;
+  }
+} 

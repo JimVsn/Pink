@@ -1,0 +1,16 @@
+@media screen and (min-width: 955px) {
+    .header__menu-button {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 955px) {
+    .header__menu-button {
+        width: 50px;
+        height: 24px;
+        background: transparent;
+        border: none;
+        padding: 0;
+        margin-right: 80px;
+    }
+}

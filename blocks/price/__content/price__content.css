@@ -5,3 +5,9 @@
     transform: skew(0, 4.7deg);
     display: flex;
 }
+
+@media screen and (max-width: 955px) {
+    .price__content {
+        max-width: 96%;
+    }
+}

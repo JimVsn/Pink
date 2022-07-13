@@ -24,6 +24,12 @@
   margin-right: 120px;
 }
 
+@media screen and (max-width: 955px) {
+  .header__menu-text {
+    display: none;
+  }
+}
+
 
 
 

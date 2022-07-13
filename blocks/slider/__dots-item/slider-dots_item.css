@@ -1,0 +1,24 @@
+.slider-dots_item {
+    display: none;
+}
+
+
+@media screen and (max-width:955px) {
+
+    .slider-dots_item {
+        cursor: pointer;
+        height: 6px;
+        width: 6px;
+        margin: 0 6px;
+        background-color: #283645;
+        border-radius: 50%;
+        display: inline-block;
+        transition: background-color 0.6s ease;
+        opacity: 0.3;
+        
+    }
+
+    .slider-dots_item:hover {
+        opacity: 0.6;
+    }
+}

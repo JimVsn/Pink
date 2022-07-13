@@ -1,5 +1,7 @@
 const headerLogoActive = document.querySelector('.header__logo-img');
 const headerMenuText = document.querySelectorAll('.header__menu-text');
+const headerLogo = document.querySelector('.header__logo');
+const headerMenu = document.querySelector('.header__menu');
 const introButton = document.querySelector('.intro__button');
 const diagramLink = document.querySelector('.diagram__link');
 const sliderPrev = document.querySelectorAll('.slider__prev');
@@ -9,6 +11,45 @@ const footerNav = document.querySelectorAll('.footer__nav-logo');
 const footerText = document.querySelector('.footer__about-text');
 const footerAboutImg = document.querySelector('.footer__about-img');
 const footerLogo = document.querySelector('.footer__logo');
+const headerMenuButtonImg = document.querySelector('.header__menu-button-img');
+const headerMenuTablet = document.querySelector('.header__menu-tablet');
+const headerMenuCloseButton = document.querySelector('.header__menu-tablet-close-button');
+const headerWrapper = document.querySelector('.header__wrapper');
+const headerMenuLogoTablet = document.querySelector('.header__menu-tablet-logo');
+const headerMenuTabletLink = document.querySelectorAll('.header__menu-tablet-link');
+const sliderDotsItem = document.querySelectorAll('.slider-dots_item');
+
+headerMenuTabletLink.forEach(function(link) {
+    link.addEventListener('click', ()=> {
+        link.style.opacity = '0.3'
+    })
+})
+
+
+headerMenuLogoTablet.addEventListener('click', () => {
+    headerMenuLogoTablet.style.opacity = '0.3'
+})
+
+headerMenuCloseButton.addEventListener('click', () => {
+    setTimeout(() => {headerLogo.style.display = 'flex'}, 380)
+    setTimeout(() => {headerMenu.style.display = 'flex'}, 380)
+    setTimeout(() => {headerWrapper.style.display = 'flex'}, 380)
+    headerMenuTablet.style.transition = '0.4s'
+    headerMenuTablet.style.marginTop = '-361px'
+})
+
+headerMenuButtonImg.addEventListener('click', () => {
+    headerLogo.style.display = 'none';
+    headerMenu.style.display = 'none';
+    headerWrapper.style.display = 'none';
+    headerMenuTablet.style.marginTop = '0'
+    headerMenuTablet.style.transition = '0.4s'
+})
+
+// headerMenuButtonImg.addEventListener('click', () => {
+//     headerMenuButtonImg.style.opacity = '0.3'
+//     headerMenuButtonImg.src = 'images/openmenubtnRed.svg'
+// })
 
 footerLogo.addEventListener('click', () => {
     footerLogo.src = 'images/logofooter.svg'
@@ -96,13 +137,15 @@ function minusSlide() {
 /* Устанавливает текущий слайд */
 function currentSlide(n) {
     showSlides(slideIndex = n);
+    
+
 }
 
 /* Основная функция слайдера */
 function showSlides(n) {
     var i;
     var slides = document.getElementsByClassName("slider__item");
-    var dots = document.getElementsByClassName("slider-dots_item");
+    var dots = document.getElementsByClassName("slider__run");
     if (n > slides.length) {
       slideIndex = 1
     }
@@ -113,10 +156,10 @@ function showSlides(n) {
         slides[i].style.display = "none";
     }
     for (i = 0; i < dots.length; i++) {
-        dots[i].className = dots[i].className.replace(" active", "");
+        sliderDotsItem[i].className = sliderDotsItem[i].className.replace(" slider-dots_item_toggle", "");
     }
     slides[slideIndex - 1].style.display = "block";
-    dots[slideIndex - 1].className += " active";
+    sliderDotsItem[slideIndex - 1].className += " slider-dots_item_toggle";
 }
 
 sliderNext.forEach(function(slideNext){
@@ -130,3 +173,16 @@ sliderPrev.forEach(function(slidePrev) {
         minusSlide()
     })
 })
+
+
+// sliderDotsItem.forEach(function(dotsItem) {
+//     dotsItem.addEventListener('click', () => {
+//         dotsItem.classList.toggle('slider-dots_item_toggle')
+        
+//         // dotsItem.style.border = '3px solid #283645';
+//         // dotsItem.style.background = '#fff'
+//     })
+// })
+
+
+

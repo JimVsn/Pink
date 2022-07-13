@@ -6,3 +6,9 @@
     color: #D22856;
     
 }
+
+@media screen and (max-width: 955px) {
+    .diagram__number {
+        font-size: 96px;
+    }
+}

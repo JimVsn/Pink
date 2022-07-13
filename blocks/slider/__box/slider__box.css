@@ -9,3 +9,9 @@
     height: 100%;
     margin: 0 auto 0 auto;
 }
+
+@media screen and (max-width: 955px) {
+    .slider__box {
+        max-width: 100%;
+    }
+}

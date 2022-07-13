@@ -7,3 +7,13 @@
     margin-top: 27px;
     margin-bottom: 32px;
 }
+
+@media screen and (max-width: 955px) {
+    .diagram__paragraph {
+        font-size: 14px;
+        line-height: 24px;
+        max-width: 310px;
+        margin-top: 24px;
+        margin-bottom: 25px;
+    }
+}

@@ -1,0 +1,11 @@
+.header__menu-tablet-close-button {
+    width: 23px;
+    height: 23px;
+    transition: 0.3s;
+}
+
+.header__menu-tablet-close-button:hover {
+    content: url(../../../images/closemenubtnRed.png);
+    cursor: pointer;
+    transition: 0.3s;
+}

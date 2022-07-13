@@ -6,3 +6,9 @@
     color: #283645;
     margin-left: 22px;
 }
+
+@media screen and (max-width: 955px) {
+    .price__text {
+        font-size: 14px;
+    }
+}

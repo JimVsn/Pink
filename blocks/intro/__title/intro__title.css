@@ -8,3 +8,10 @@
   text-align: center;
   margin: 18px 0 0 -7px;
 }
+
+@media screen and (max-width:955px) {
+  .intro__title {
+    font-size: 40px;
+    line-height: 48px;
+  }
+}

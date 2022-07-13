@@ -6,3 +6,9 @@
     margin-top: 35px;
     margin-bottom: 0;
 }
+
+@media screen and (max-width: 955px) {
+    .slider__name {
+        font-size: 20px;
+    }
+}

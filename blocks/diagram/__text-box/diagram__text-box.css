@@ -2,7 +2,26 @@
     border: 1px red solid;
     max-width: 571px;
     width: 100%;
-    min-height: 345px;
+    min-height: 277px;
     height: 100%;
     margin-top: 20px;
+}
+
+@media screen and (max-width: 955px) {
+    .diagram__text-box {
+        max-width: 60%;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 728px) {
+    .diagram__text-box {
+        margin-left: 35px;
+    }
+}
+
+@media screen and (max-width: 665px) {
+    .diagram__text-box {
+        margin-left: 50px;
+    }
 }

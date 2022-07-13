@@ -1,0 +1,9 @@
+.header__menu-tablet {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 361px;
+    background-color: #283645;
+    flex-direction: column;
+    margin-top: -361px;
+}

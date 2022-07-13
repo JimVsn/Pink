@@ -1,0 +1,9 @@
+.slider-dots {
+    text-align: center;
+}
+
+@media screen and (min-width: 955px) {
+    .slider-dots {
+        display: none;
+    }
+}
