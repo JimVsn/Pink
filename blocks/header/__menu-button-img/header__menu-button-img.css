@@ -12,3 +12,9 @@
     }
 }
 
+@media screen and (max-width: 601px) {
+    .header__menu-button-img {
+        margin-right: -100px;
+    }
+}
+

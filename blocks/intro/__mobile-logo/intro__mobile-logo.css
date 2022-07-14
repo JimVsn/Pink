@@ -1,6 +1,12 @@
 .intro__mobile-logo {
-  border: 1px red solid;
   display: flex;
   margin-top: 67px;
   justify-content: space-around;
+}
+
+@media screen and (max-width: 601px) {
+  .intro__mobile-logo {
+    width: 70%;
+    margin-top: 32px;
+  }
 }

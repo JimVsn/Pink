@@ -3,3 +3,9 @@
     height: 109px;
     box-shadow: 0px 1px 0px #000000;
 }
+
+@media screen and (max-width: 601px) {
+    .header__menu-tablet-header {
+        height: 69px;
+    }
+}

@@ -29,6 +29,8 @@
 @import url(../blocks/intro/__mobile-logo/_img/intro__mobile-logo_img.css);
 @import url(../blocks/intro/__text/intro__text.css);
 @import url(../blocks/intro/__phone/intro__phone-img.css);
+@import url(../blocks/intro/__title/_mobile/intro__title_mobile.css);
+@import url(../blocks/intro/__box/_mobile/intro__box_mobile.css);
 
 @import url(../blocks/information/information.css);
 @import url(../blocks/information/__title/information__title.css);

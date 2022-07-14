@@ -30,13 +30,29 @@ headerMenuLogoTablet.addEventListener('click', () => {
     headerMenuLogoTablet.style.opacity = '0.3'
 })
 
+
+
+if (document.documentElement.clientWidth > 601) {
+    headerMenuCloseButton.addEventListener('click', () => {
+        setTimeout(() => {headerLogo.style.display = 'flex'}, 380)
+        setTimeout(() => {headerMenu.style.display = 'flex'}, 380)
+        setTimeout(() => {headerWrapper.style.display = 'flex'}, 380)
+        headerMenuTablet.style.transition = '0.4s'
+        headerMenuTablet.style.marginTop = '-361px'
+    })
+} 
+
+if (document.documentElement.clientWidth < 601) {
 headerMenuCloseButton.addEventListener('click', () => {
-    setTimeout(() => {headerLogo.style.display = 'flex'}, 380)
-    setTimeout(() => {headerMenu.style.display = 'flex'}, 380)
-    setTimeout(() => {headerWrapper.style.display = 'flex'}, 380)
-    headerMenuTablet.style.transition = '0.4s'
-    headerMenuTablet.style.marginTop = '-361px'
-})
+        setTimeout(() => {headerLogo.style.display = 'flex'}, 380)
+        setTimeout(() => {headerMenu.style.display = 'flex'}, 380)
+        setTimeout(() => {headerWrapper.style.display = 'flex'}, 380)
+        headerMenuTablet.style.transition = '0.4s'
+        headerMenuTablet.style.marginTop = '-321px'
+    })
+}
+
+
 
 headerMenuButtonImg.addEventListener('click', () => {
     headerLogo.style.display = 'none';
@@ -174,15 +190,6 @@ sliderPrev.forEach(function(slidePrev) {
     })
 })
 
-
-// sliderDotsItem.forEach(function(dotsItem) {
-//     dotsItem.addEventListener('click', () => {
-//         dotsItem.classList.toggle('slider-dots_item_toggle')
-        
-//         // dotsItem.style.border = '3px solid #283645';
-//         // dotsItem.style.background = '#fff'
-//     })
-// })
 
 
 

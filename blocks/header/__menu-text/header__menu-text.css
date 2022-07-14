@@ -8,12 +8,10 @@
   line-height: 18px;
   margin-right: 78px;
   border-bottom: 10px solid transparent;
-  /* transition: 0.3s; */
 }
 
 .header__menu-text:visited {
   opacity: 0.3;
-  /* transition: 0.3s; */
 }
 
 .header__menu-text:first-child {

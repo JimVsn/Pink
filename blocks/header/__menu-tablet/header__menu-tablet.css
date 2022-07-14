@@ -7,3 +7,10 @@
     flex-direction: column;
     margin-top: -361px;
 }
+
+@media screen and (max-width: 601px) {
+    .header__menu-tablet {
+        height: 321px;
+        margin-top: -321px;
+    }
+}

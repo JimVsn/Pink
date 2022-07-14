@@ -9,3 +9,21 @@
   align-items: center;
   text-align: center;
 }
+
+@media screen and (max-width: 601px) {
+  .information {
+    margin-top: 400px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .information {
+    margin-top: 160px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .information {
+    margin-top: 50px;
+  }
+}

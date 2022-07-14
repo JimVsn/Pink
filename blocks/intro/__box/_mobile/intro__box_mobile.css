@@ -1,0 +1,20 @@
+.intro__box_mobile {
+    display: flex;
+    max-width: 601px;
+    margin-bottom: -500px;
+    background-color: #1D2631;
+    align-items: center;
+}
+
+@media screen and (min-width: 601px) {
+    .intro__box_mobile {
+        display: none;
+        
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .intro__box_mobile {
+        margin-bottom: -97px;
+    }
+}

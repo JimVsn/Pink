@@ -1,9 +1,16 @@
 .header__menu-tablet-header-wrapper {
     margin-left: 10px;
-    /* margin-right: 43px; */
     width: 90%;
     height: 60%;
     display: flex;
     align-items: flex-end;
     justify-content: space-between;
+    
 } 
+
+@media screen and (max-width: 601px) {
+    .header__menu-tablet-header-wrapper {
+        height: 70%;
+        
+    }
+}

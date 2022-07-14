@@ -19,3 +19,10 @@
   }
 
 }
+
+@media screen and (max-width: 601px) {
+  .header__logo-img {
+    content: url(../../../images/logotype-white-mobile.svg);
+    margin-left: -60px;
+  }
+}

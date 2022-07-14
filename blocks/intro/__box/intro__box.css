@@ -7,3 +7,10 @@
   flex-direction: column;
   z-index: 21;
 }
+
+ @media screen and (max-width: 601px) {
+  .intro__box {
+    display: none;
+    height: auto;
+  }
+ }

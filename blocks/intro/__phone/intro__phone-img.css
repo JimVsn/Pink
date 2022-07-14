@@ -32,7 +32,36 @@
 
 @media screen and (max-width: 704px) {
  .intro__phone-img {
-  /* object-position: 65%; */
   margin-left: -200px;
   }
 } 
+
+@media screen and (max-width: 601px) {
+  .intro__phone-img {
+    /* max-height: 900px; */
+   margin-left: 0;
+   margin-top: 34px;
+  }
+}
+
+/* @media screen and (max-width: 500px) {
+  .intro__phone-img {
+    object-fit: cover;
+    object-position: -75px
+  }
+} */
+
+
+@media screen and (max-width: 500px) {
+  .intro__phone-img {
+    object-position: -120px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .intro__phone-img {
+    object-position: -150px 30px;
+    margin-top: 0;
+    height: 286px;
+  }
+}

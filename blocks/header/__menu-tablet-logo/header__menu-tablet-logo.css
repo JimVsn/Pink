@@ -10,3 +10,15 @@
     content: url(../../../images/logotype-red-tablet.svg);
     transition: 0.3s;
 }
+
+@media screen and (max-width: 601px) {
+    .header__menu-tablet-logo {
+        content: url(../../../images/logotype-white-mobile.svg);
+        margin-left: -60px;
+        /* max-width: 120px; */
+    }
+
+    .header__menu-tablet-logo:hover {
+        content: url(../../../images/logotype-red-mobile.svg);
+    }
+}

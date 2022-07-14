@@ -13,6 +13,19 @@
 
 @media screen and (max-width: 955px) {
   .intro {
-    max-height: 733px;
+    max-height: 700px;
   }
 }
+
+@media screen and (max-width: 601px) {
+  .intro {
+    max-height: 800px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .intro {
+    max-height: 780px;
+  }
+}
+
