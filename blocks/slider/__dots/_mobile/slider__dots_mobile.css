@@ -1,0 +1,9 @@
+.slider-dots_mobile {
+    text-align: center;
+}
+
+@media screen and (min-width: 601px) {
+    .slider-dots_mobile {
+        display: none;
+    }
+}

@@ -1,14 +1,9 @@
-.slider__item {
+.price__slider-item {
     -webkit-animation-name: fade;
     -webkit-animation-duration: 1.5s;
     animation-name: fade;
     animation-duration: 1.5s;
     min-height: 292px;
     height: 100%;
-}
-
-@media screen and (max-width:955px) {
-    .slider__item {
-        width: 100%;
-    }
+    border: 1px red solid;
 }

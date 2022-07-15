@@ -1,5 +1,11 @@
 .information__phone-tablet-img {
-    max-width: 268px;
-    height: 547px;
-    width: 100%;
+    max-width: 157px;
+    height: 320px;
+    /* width: 100%; */
+}
+
+@media screen and (max-width: 601px) {
+    .information__phone-tablet-img {
+        display: none;
+    }
 }

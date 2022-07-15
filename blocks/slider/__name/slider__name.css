@@ -12,3 +12,9 @@
         font-size: 20px;
     }
 }
+
+@media screen and (max-width: 601px) {
+    .slider__name {
+        display: none;
+    }
+}

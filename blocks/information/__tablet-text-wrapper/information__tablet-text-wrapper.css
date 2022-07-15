@@ -8,3 +8,12 @@
 .information__tablet-text-wrapper:first-child {
     margin-top: 80px;
 }
+
+@media screen and (max-width: 601px) {
+    .information__tablet-text-wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}

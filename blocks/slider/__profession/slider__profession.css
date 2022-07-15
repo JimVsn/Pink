@@ -12,3 +12,9 @@
     font-size: 14px;
   }
 }
+
+@media screen and (max-width: 601px) {
+  .slider__profession {
+    display: none;
+  }
+}

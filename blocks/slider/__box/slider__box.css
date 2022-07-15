@@ -1,5 +1,4 @@
 .slider__box {
-    border: 1px red solid;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -13,5 +12,11 @@
 @media screen and (max-width: 955px) {
     .slider__box {
         max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 601px) {
+    .slider__box {
+        height: 300px;
     }
 }

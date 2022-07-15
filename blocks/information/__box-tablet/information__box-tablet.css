@@ -20,3 +20,11 @@
         justify-content: flex-start;
     }
 }
+
+@media screen and (max-width: 601px) {
+    .information__box-tablet {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}

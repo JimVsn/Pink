@@ -17,3 +17,9 @@
     min-height: 225px;
   }
 }
+
+@media screen and (max-width: 601px) {
+  .diagram {
+    display: none;
+  }
+}

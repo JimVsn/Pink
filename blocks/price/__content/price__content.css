@@ -11,3 +11,9 @@
         max-width: 96%;
     }
 }
+
+@media screen and (max-width: 601px) {
+    .price__content {
+        display: none;
+    }
+}

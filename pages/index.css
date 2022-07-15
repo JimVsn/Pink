@@ -49,6 +49,7 @@
 @import url(../blocks/information/__title-tablet/information__title-tablet.css);
 @import url(../blocks/information/__text-tablet/information__text-tablet.css);
 @import url(../blocks/information/__title/_mobile/information__title_mobile.css);
+@import url(../blocks/information/__phone-tablet-img/_mobile/information__phone-tablet-img_mod.css);
 
 @import url(../blocks/diagram/diagram.css);
 @import url(../blocks/diagram/__box/diagram__box.css);
@@ -73,6 +74,9 @@
 @import url(../blocks/slider/__dots/slider-dots.css);
 @import url(../blocks/slider/__dots-item/slider-dots_item.css);
 @import url(../blocks/slider/__dots-item/_toggle/slider-dots_item_toggle.css);
+@import url(../blocks/slider/__name/_mobile/slider__name_mobile.css);
+@import url(../blocks/slider/__dots-item/_mobile/slider-dots_item_mobile.css);
+@import url(../blocks/slider/__dots/_mobile/slider__dots_mobile.css);
 
 @import url(../blocks/price/price.css);
 @import url(../blocks/price/__content/price__content.css);
@@ -90,6 +94,7 @@
 @import url(../blocks/price/__text/price__text.css);
 @import url(../blocks/price/__yes/price__yes.css);
 @import url(../blocks/price/__table-box/_center/price__table-box_center.css);
+@import url(../blocks/price/__slider/price__slider.css);
 
 @import url(../blocks/contacts/contacts.css);
 @import url(../blocks/contacts/__container/contacts__container.css);
