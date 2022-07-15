@@ -44,13 +44,6 @@
   }
 }
 
-/* @media screen and (max-width: 500px) {
-  .intro__phone-img {
-    object-fit: cover;
-    object-position: -75px
-  }
-} */
-
 
 @media screen and (max-width: 500px) {
   .intro__phone-img {
@@ -58,10 +51,17 @@
   }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 341px) {
   .intro__phone-img {
-    object-position: -150px 30px;
+    object-position: -225px 30px;
     margin-top: 0;
-    height: 286px;
+    /* height: 286px; */
+  }
+}
+
+@media screen and (min-width: 341px) and (max-width: 415px) {
+  .intro__phone-img {
+    object-position: -195px 30px;
+    margin-top: 0;
   }
 }

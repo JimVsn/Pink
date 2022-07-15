@@ -18,3 +18,9 @@
     max-width: 580px;
   }
 }
+
+@media screen and (max-width: 601px) {
+  .information__title {
+    display: none;
+  }
+}

@@ -48,6 +48,7 @@
 @import url(../blocks/information/__tablet-text-wrapper/information__tablet-text-wrapper.css);
 @import url(../blocks/information/__title-tablet/information__title-tablet.css);
 @import url(../blocks/information/__text-tablet/information__text-tablet.css);
+@import url(../blocks/information/__title/_mobile/information__title_mobile.css);
 
 @import url(../blocks/diagram/diagram.css);
 @import url(../blocks/diagram/__box/diagram__box.css);
