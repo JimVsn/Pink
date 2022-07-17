@@ -5,5 +5,21 @@
     animation-duration: 1.5s;
     min-height: 292px;
     height: 100%;
-    border: 1px red solid;
+}
+
+@-webkit-keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
 }

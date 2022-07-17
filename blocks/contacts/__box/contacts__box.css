@@ -2,7 +2,6 @@
     width: 74%;
     min-height: 165px;
     height: 100%;
-    border: 1px red solid;
     display: flex;
     justify-content: space-between;
     margin-left: auto;

@@ -18,6 +18,7 @@ const headerWrapper = document.querySelector('.header__wrapper');
 const headerMenuLogoTablet = document.querySelector('.header__menu-tablet-logo');
 const headerMenuTabletLink = document.querySelectorAll('.header__menu-tablet-link');
 const sliderDotsItem = document.querySelectorAll('.slider-dots_item');
+const sliderDotsItemPrice = document.querySelectorAll('.slider-dots_item_mobile')
 
 headerMenuTabletLink.forEach(function(link) {
     link.addEventListener('click', ()=> {
@@ -61,11 +62,6 @@ headerMenuButtonImg.addEventListener('click', () => {
     headerMenuTablet.style.marginTop = '0'
     headerMenuTablet.style.transition = '0.4s'
 })
-
-// headerMenuButtonImg.addEventListener('click', () => {
-//     headerMenuButtonImg.style.opacity = '0.3'
-//     headerMenuButtonImg.src = 'images/openmenubtnRed.svg'
-// })
 
 footerLogo.addEventListener('click', () => {
     footerLogo.src = 'images/logofooter.svg'
@@ -189,6 +185,9 @@ sliderPrev.forEach(function(slidePrev) {
         minusSlide()
     })
 })
+
+
+
 
 
 

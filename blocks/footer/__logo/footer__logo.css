@@ -10,3 +10,13 @@
   cursor: pointer;
   transition: 0.3s;
 }
+
+@media screen and (max-width: 955px) {
+  .footer__logo {
+    content: url(../../../images/logotype-active-tablet.svg);
+  }
+
+  .footer__logo:hover {
+    content: url(../../../images/logotype-red-tablet.svg)
+  }
+}

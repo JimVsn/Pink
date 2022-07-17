@@ -1,5 +1,4 @@
 .information__box-tablet {
-    border: 1px red solid;
     width: 96%;
     min-height: 482px;
     height: 100%;
@@ -15,11 +14,11 @@
     }
 }
 
-@media screen and (max-width: 728px) {
+/* @media screen and (max-width: 728px) {
     .information__box-tablet {
         justify-content: flex-start;
     }
-}
+} */
 
 @media screen and (max-width: 601px) {
     .information__box-tablet {

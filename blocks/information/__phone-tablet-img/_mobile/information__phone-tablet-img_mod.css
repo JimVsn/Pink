@@ -6,7 +6,7 @@
 }
 
 @media screen and (min-width: 601px) {
-    .information__phone-tablet-img_mod {
+    .information__phone-tablet-img_mobile {
       display: none;
     }
 }

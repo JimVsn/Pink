@@ -2,7 +2,6 @@
     max-width: 60%;
     width: 100%;
     min-height: 100%;
-    border: 1px red solid;
 }
 
 @media screen and (max-width: 728px) {

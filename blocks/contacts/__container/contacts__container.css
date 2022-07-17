@@ -1,5 +1,4 @@
 .contacts__container {
-    border: 1px red solid;
     width: 100%;
     min-height: 271px;
     height: 100%;
@@ -9,4 +8,11 @@
     background-color: #fff;
     position: relative;
     z-index: 7;
+}
+
+@media screen and (max-width: 450px) {
+    .contacts__container {
+        margin-top: -30px;
+        margin-bottom: 30px;
+    }
 }

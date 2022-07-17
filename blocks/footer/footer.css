@@ -2,7 +2,6 @@
     width: 100%;
     min-height: 197px;
     height: 100%;
-    border: 1px red solid;
     display: flex;
     align-items: center;
     justify-content:space-around;
@@ -11,5 +10,12 @@
 @media screen and (max-width: 955px) {
     .footer {
         min-height: 127px;
+    }
+}
+
+@media screen and (max-width: 601px) {
+    .footer {
+        flex-direction: column;
+        min-height: 284px;
     }
 }

@@ -5,3 +5,11 @@
     border: 2px solid #E5E5E5;
 }
 
+@media screen and (max-width: 601px) {
+    .price__table-box {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+

@@ -2,3 +2,9 @@
     width: 31px;
     height: 21px;
 }
+
+@media screen and (max-width: 601px) {
+    .price__yes {
+        margin-right: 20px;
+    }
+}

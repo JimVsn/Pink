@@ -1,5 +1,6 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts/fonts.css);
+@import url(../pages/slick.css);
 @import url(../blocks/body/body.css);
 @import url(../blocks/page/page.css);
 @import url(../blocks/header/header.css);
@@ -77,6 +78,9 @@
 @import url(../blocks/slider/__name/_mobile/slider__name_mobile.css);
 @import url(../blocks/slider/__dots-item/_mobile/slider-dots_item_mobile.css);
 @import url(../blocks/slider/__dots/_mobile/slider__dots_mobile.css);
+@import url(../blocks/price/__slider-content/price__slider-content.css);
+@import url(../blocks/price/__slider-wrapper/price__slider-wrapper.css);
+@import url(../blocks/price/__slider-dots-item-toggle/price__slider-dots-item-toggle.css);
 
 @import url(../blocks/price/price.css);
 @import url(../blocks/price/__content/price__content.css);

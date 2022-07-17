@@ -6,23 +6,6 @@
     margin-bottom: 0;
 }
 
-@-webkit-keyframes fade {
-    from {
-        opacity: .4
-    }
-    to {
-        opacity: 1
-    }
-}
-@keyframes fade {
-    from {
-        opacity: .4
-    }
-    to {
-        opacity: 1
-    }
-}
-
 @media screen and (max-width: 955px) {
     .slider {
         max-width: 96%;

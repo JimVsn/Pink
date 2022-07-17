@@ -1,0 +1,32 @@
+.price__slider-content {
+    width: 276px;
+    height: 279px;
+    display: flex;
+    margin-top: 0;
+    flex-direction: column;
+    margin-right: 2px;
+    margin-left: 2px;
+    cursor: move; 
+    cursor: grab;
+    cursor: -moz-grab;
+    cursor: -webkit-grab;
+}
+
+.price__slider-content:active {
+    cursor: grabbing;
+    cursor: -moz-grabbing;
+    cursor: -webkit-grabbing;
+}
+
+@media screen and (min-width: 500px) and (max-width: 601px) {
+    .price__slider-content {
+        width: 360px;
+    }
+}
+
+@media screen and (min-width: 400px) and (max-width: 500px) {
+    .price__slider-content {
+        width: 300px;
+    }
+}
+
