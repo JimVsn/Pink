@@ -31,8 +31,6 @@ headerMenuLogoTablet.addEventListener('click', () => {
     headerMenuLogoTablet.style.opacity = '0.3'
 })
 
-
-
 if (document.documentElement.clientWidth > 601) {
     headerMenuCloseButton.addEventListener('click', () => {
         setTimeout(() => {headerLogo.style.display = 'flex'}, 380)
@@ -52,8 +50,6 @@ headerMenuCloseButton.addEventListener('click', () => {
         headerMenuTablet.style.marginTop = '-321px'
     })
 }
-
-
 
 headerMenuButtonImg.addEventListener('click', () => {
     headerLogo.style.display = 'none';
