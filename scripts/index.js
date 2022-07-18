@@ -21,8 +21,18 @@ const sliderDotsItem = document.querySelectorAll('.slider-dots_item');
 const sliderDotsItemPrice = document.querySelectorAll('.slider-dots_item_mobile')
 
 headerMenuTabletLink.forEach(function(link) {
-    link.addEventListener('click', ()=> {
+    link.addEventListener('blur', ()=> {
         link.style.opacity = '0.3'
+        link.style.border = 'none'
+        link.style.transition = '-0.3s'
+    })
+})
+
+headerMenuTabletLink.forEach(function(link) {
+    link.addEventListener('focus', ()=> {
+        link.style.borderBottom = '2px #FFF solid'
+        link.style.paddingBottom = '9px'
+        link.style.transition = '-0.3s'
     })
 })
 

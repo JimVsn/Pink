@@ -11,7 +11,7 @@
 
 @media screen and (max-width: 691px) {
     .price__heat-text {
-        margin-top: -1px;
-        margin-left: 5px;
+        margin-top: -5px;
+        margin-left: 0px;
     }
 }
