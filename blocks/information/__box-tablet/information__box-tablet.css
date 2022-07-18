@@ -14,13 +14,7 @@
     }
 }
 
-/* @media screen and (max-width: 728px) {
-    .information__box-tablet {
-        justify-content: flex-start;
-    }
-} */
-
-@media screen and (max-width: 601px) {
+@media screen and (max-width: 725px) {
     .information__box-tablet {
         flex-direction: column;
         justify-content: center;

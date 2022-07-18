@@ -13,6 +13,7 @@
   .diagram__box {
     background-color: #fff;
     padding-top: 50px;
+    width: 96%;
   }
 }
 @media screen and (max-width: 728px) {

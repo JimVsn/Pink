@@ -10,7 +10,7 @@
     }
 }
 
-@media screen and (max-width: 601px) {
+@media screen and (max-width: 725px) {
     .information__tablet-container-text {
         max-width: 90%;
         margin-left: auto;

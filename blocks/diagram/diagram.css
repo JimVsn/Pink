@@ -10,14 +10,17 @@
   .diagram {
     background-color: #fff;
     margin-top: -159px;
-    width: 96%;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
     min-height: 225px;
+    position: relative;
+    z-index: 30;
+    margin-top: -260px;
   }
 }
 
-@media screen and (max-width: 601px) {
+@media screen and (max-width: 725px) {
   .diagram {
     display: none;
   }

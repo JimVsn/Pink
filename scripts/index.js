@@ -33,6 +33,7 @@ headerMenuTabletLink.forEach(function(link) {
         link.style.borderBottom = '2px #FFF solid'
         link.style.paddingBottom = '9px'
         link.style.transition = '-0.3s'
+        link.style.opacity = '1'
     })
 })
 

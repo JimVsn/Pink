@@ -9,7 +9,7 @@
     margin-bottom: 0;
 }
 
-@media screen and (max-width: 601px) {
+@media screen and (max-width: 725px) {
     .information__text-tablet {
         text-align: center;
     }
